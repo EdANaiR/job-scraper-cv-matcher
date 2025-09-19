@@ -1,4 +1,4 @@
-# LinkedIn Job Matcher (Python + Selenium)
+# Job Matcher (Python + Selenium)
 
 **Overview**  
 This project automates LinkedIn job search, scrapes job listings based on chosen filters, and matches them with the user's CV to calculate a compatibility score.  
