@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eda Nur Nair - CV</title>
+    <style>
+      body {
+        font-family: "Charter", serif, Georgia, Times, "Times New Roman", serif;
+        max-width: 800px;
+        margin: 2rem auto;
+        padding: 2rem;
+        color: #000;
+        line-height: 1.4;
+        background: #fff;
+      }
+
+      /* Header container: flex ile yan yana */
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; /* üst hizalama */
+        margin-bottom: 1.5rem;
+      }
+
+      /* İsmin ve bilgilerin olduğu kısım */
+      .header-info {
+        max-width: calc(100% - 120px); /* fotoğraf için yer bırak */
+      }
+
+      h1 {
+        font-size: 2.2rem;
+        margin: 0 0 0.2rem 0;
+        font-weight: bold;
+      }
+
+      .title {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-bottom: 0.1rem;
+      }
+
+      .contact-info {
+        font-size: 0.9rem;
+      }
+
+      .contact-info a {
+        color: black;
+        text-decoration: none;
+      }
+
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+
+      /* Fotoğraf için stil */
+      .profile-photo {
+        width: 87px; /* 2.3cm */
+        height: 113px; /* 3cm */
+        object-fit: cover;
+        border-radius: 4px;
+        /* LaTeX'deki raisebox etkisi için margin top */
+        margin-top: 24px; /* yaklaşık -1.5cm yukarıdan aşağı kaydırma etkisi */
+      }
+
+      section {
+        margin-bottom: 1.8rem;
+      }
+
+      /* Bölüm başlıkları */
+      h2 {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        border-bottom: 1.5px solid #000;
+        padding-bottom: 4px;
+        font-weight: bold;
+      }
+
+      /* Tarih ve başlık için iki sütunlu düzen */
+      .entry {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.4rem;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+
+      .entry .date {
+        font-style: italic;
+        color: #444;
+        flex-shrink: 0;
+        width: 120px;
+      }
+
+      ul {
+        margin-top: 0.2rem;
+        margin-bottom: 0.8rem;
+        padding-left: 1.2rem;
+        list-style-type: disc;
+      }
+
+      ul li {
+        margin-bottom: 0.25rem;
+        font-size: 0.95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-info">
+        <h1>Eda Nur Nair</h1>
+        <div class="title">Software Developer</div>
+        <div class="contact-info">
+          Ankara, Turkey |
+          <a href="mailto:edanurnair@gmail.com">edanurnair@gmail.com</a> | +90
+          537 948 70 60 |
+          <a href="https://www.linkedin.com/in/eda-nur-nair-/" target="_blank"
+            >LinkedIn</a
+          >
+          |
+          <a href="https://github.com/EdANaiR" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <img
+        src="C:\Users\pc\OneDrive\Masaüstü\profile.jpg"
+        alt="Eda Nur Nair"
+        class="profile-photo"
+      />
+    </div>
+
+    <section>
+      <h2>Education</h2>
+      <div class="entry">
+        <div>
+          Bartın University, Bachelor's Degree, Management Information Systems
+        </div>
+        <div class="date">Sep 2020 – Jun 2024</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>
+          <strong>Frontend:</strong> React, Next.js, TypeScript, JavaScript
+          (ES6+), SCSS, TailwindCSS, Radix UI, Shadcn UI, Material UI,
+          Responsive Design
+        </li>
+        <li>
+          <strong>Backend & Databases:</strong> ASP.NET, Entity Framework,
+          RESTful APIs, MS SQL, Supabase, PostgreSQL, Docker
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+
+      <div class="entry">
+        <div>
+          Freelance JavaScript Developer – AI Training, G2i INC – Remote
+        </div>
+        <div class="date">Apr 2025 – Jun 2025</div>
+      </div>
+      <ul>
+        <li>
+          Analyzed and evaluated quality of AI generated frontend code using
+          JavaScript and React
+        </li>
+        <li>Managed debugging processes for generated code</li>
+        <li>
+          Contributed to training AI models on React components, JavaScript code
+          structures, and test patterns
+        </li>
+        <li>
+          Provided critical feedback on React and JavaScript code to improve
+          maintainability and modularity
+        </li>
+      </ul>
+
+      <div class="entry">
+        <div>IT Intern, Social Office – Remote</div>
+        <div class="date">Apr 2025 – Jun 2025</div>
+      </div>
+      <ul>
+        <li>
+          Completed training on core IT tools including Microsoft Excel,
+          AutoCAD, Photoshop, and Python
+        </li>
+        <li>
+          Contributed to production and design processes using acquired
+          technical skills
+        </li>
+      </ul>
+
+      <div class="entry">
+        <div>Technical Writer, Huawei Student Developer Group – Remote</div>
+        <div class="date">Mar 2025 – Present</div>
+      </div>
+      <ul>
+        <li>
+          Author technical articles on React, Next.js, and .NET Core development
+        </li>
+        <li>
+          Provide developer guidance within Huawei's ecosystem and participate
+          in community events
+        </li>
+      </ul>
+
+      <div class="entry">
+        <div>Frontend Developer Intern, Software.xyz – Remote</div>
+        <div class="date">Aug 2024 – Oct 2024</div>
+      </div>
+      <ul>
+        <li>
+          Developed critical e-commerce components including product filtering,
+          product cards, and payment flow using React, TypeScript and Next.js
+        </li>
+        <li>Collaborated effectively in a 9 person Agile development team</li>
+        <li>
+          <strong>Technologies Used:</strong> TypeScript, Next.js, TailwindCSS,
+          Material UI, Responsive Design, Figma, Docker
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="entry">
+        <div>
+          <a href="https://hookcraft.com.tr/" target="_blank"
+            >HookCraft - AI-Powered Viral Content Platform</a
+          >
+        </div>
+        <div class="date">May 2025</div>
+      </div>
+      <ul>
+        <li>
+          Developed web application integrated with DeepSeek AI that generates
+          viral content suggestions and prompts for social media
+        </li>
+        <li>
+          Implements content analysis based on user input to provide
+          audience-specific recommendations
+        </li>
+        <li>
+          Integrated Paddle payment system to establish subscription-based
+          service model
+        </li>
+        <li>
+          <strong>Technologies Used:</strong> React, TypeScript, TailwindCSS,
+          Supabase, OpenAI API, Zod, Radix UI
+        </li>
+      </ul>
+
+      <div class="entry">
+        <div>
+          <a href="https://www.xn--ankaramknats-74be.com/" target="_blank"
+            >Ankara Magnets Website – Client Project</a
+          >
+        </div>
+        <div class="date">Apr 2025</div>
+      </div>
+      <ul>
+        <li>
+          Developed corporate website and admin panel for magnet manufacturing
+          company
+        </li>
+        <li>
+          Implemented product listing, category management, SEO optimization and
+          user-friendly interface
+        </li>
+        <li>
+          <strong>Technologies Used:</strong> Next.js, Typescript, TailwindCSS,
+          Shadcn UI, Supabase, Vercel
+        </li>
+      </ul>
+
+      <div class="entry">
+        <div>
+          <a href="https://www.guncelmanset.com.tr/news" target="_blank"
+            >Current Headlines News Portal – Client Project</a
+          >
+        </div>
+        <div class="date">Oct 2024</div>
+      </div>
+      <ul>
+        <li>
+          Developed user friendly news platform with complete SEO optimization
+          and admin panel
+        </li>
+        <li>Enabled seamless news publishing through custom admin interface</li>
+        <li>
+          Enhanced search visibility through comprehensive SEO implementation
+        </li>
+        <li>
+          <strong>Technologies Used:</strong> ASP.NET RESTful API, Entity
+          Framework, MS SQL, Code First, TypeScript, Next.js, TailwindCSS,
+          Shadcn, Dynamic Routes, Cloudinary
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+{
+  "name": "Eda Nur Nair",
+  "title": "Software Developer",
+  "location": "Ankara, Turkey",
+  "contact": {
+    "email": "edanurnair@gmail.com",
+    "phone": "+90 537 948 70 60",
+    "linkedin": "https://www.linkedin.com/in/eda-nur-nair-/",
+    "github": "https://github.com/EdANaiR"
+  },
+  "education": [
+    {
+      "school": "Bartın University",
+      "degree": "Bachelor’s Degree",
+      "department": "Management Information Systems",
+      "start": "Sep 2020",
+      "end": "Jun 2024"
+    }
+  ],
+  "skills": {
+    "frontend": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "SCSS",
+      "TailwindCSS",
+      "Radix UI",
+      "Shadcn UI",
+      "Material UI",
+      "Responsive Design"
+    ],
+    "backend": [
+      "ASP.NET",
+      "Entity Framework",
+      "RESTful APIs",
+      "MS SQL",
+      "Supabase",
+      "PostgreSQL",
+      "Docker"
+    ]
+  },
+  "experience": [
+    {
+      "title": "Freelance JavaScript Developer – AI Training",
+      "company": "G2i INC",
+      "type": "Remote",
+      "start": "Apr 2025",
+      "end": "Jun 2025",
+      "description": [
+        "Analyzed and evaluated quality of AI generated frontend code using JavaScript and React",
+        "Managed debugging processes for generated code",
+        "Contributed to training AI models on React components, JavaScript code structures, and test patterns",
+        "Provided critical feedback on React and JavaScript code to improve maintainability and modularity"
+      ]
+    },
+    {
+      "title": "IT Intern",
+      "company": "Social Office",
+      "type": "Remote",
+      "start": "Apr 2025",
+      "end": "Jun 2025",
+      "description": [
+        "Completed training on core IT tools including Microsoft Excel, AutoCAD, Photoshop, and Python",
+        "Contributed to production and design processes using acquired technical skills"
+      ]
+    },
+    {
+      "title": "Technical Writer",
+      "company": "Huawei Student Developer Group",
+      "type": "Remote",
+      "start": "Mar 2025",
+      "end": "Present",
+      "description": [
+        "Author technical articles on React, Next.js, and .NET Core development",
+        "Provide developer guidance within Huawei’s ecosystem and participate in community events"
+      ]
+    },
+    {
+      "title": "Frontend Developer Intern",
+      "company": "Software.xyz",
+      "type": "Remote",
+      "start": "Aug 2024",
+      "end": "Oct 2024",
+      "description": [
+        "Developed critical e-commerce components including product filtering, product cards, and payment flow using React, TypeScript and Next.js",
+        "Collaborated effectively in a 9 person Agile development team",
+        "Technologies Used: TypeScript, Next.js, TailwindCSS, Material UI, Responsive Design, Figma, Docker"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "HookCraft – AI-Powered Viral Content Platform",
+      "date": "May 2025",
+      "description": [
+        "Developed web application integrated with DeepSeek AI that generates viral content suggestions and prompts for social media",
+        "Implements content analysis based on user input to provide audience-specific recommendations",
+        "Integrated Paddle payment system to establish subscription-based service model"
+      ],
+      "technologies": [
+        "React",
+        "TypeScript",
+        "TailwindCSS",
+        "Supabase",
+        "OpenAI API",
+        "Zod",
+        "Radix UI"
+      ]
+    },
+    {
+      "name": "Ankara Magnets Website – Client Project",
+      "date": "Apr 2025",
+      "description": [
+        "Developed corporate website and admin panel for magnet manufacturing company",
+        "Implemented product listing, category management, SEO optimization and user-friendly interface"
+      ],
+      "technologies": [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Supabase",
+        "Vercel"
+      ]
+    },
+    {
+      "name": "Current Headlines News Portal – Client Project",
+      "date": "Oct 2024",
+      "description": [
+        "Developed user friendly news platform with complete SEO optimization and admin panel",
+        "Enabled seamless news publishing through custom admin interface",
+        "Enhanced search visibility through comprehensive SEO implementation"
+      ],
+      "technologies": [
+        "ASP.NET RESTful API",
+        "Entity Framework",
+        "MS SQL",
+        "Code First",
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+        "Shadcn",
+        "Dynamic Routes",
+        "Cloudinary"
+      ]
+    }
+  ]
+}
